@@ -129,6 +129,7 @@ const About = () => {
             <div
               className="col-sm-12 col-md-6 slide-in-left"
               data-animation="slide-in-left"
+              style={{ animationDelay: "0.9s" }}
             >
               <img src={Image} alt="Self-potrait" className="self-potrait" />
               <div>
@@ -144,6 +145,7 @@ const About = () => {
             <div
               className="col-sm-12 col-md-6 slide-in-right mt-4"
               data-animation="slide-in-right"
+              style={{ animationDelay: "0.9s" }}
             >
               {skills.map((skill, i) => (
                 <div className="bar d-flex" key={i}>
