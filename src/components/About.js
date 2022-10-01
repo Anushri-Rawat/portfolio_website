@@ -5,19 +5,19 @@ import { useInView } from "react-intersection-observer";
 const skills = [
   {
     name: "CSS",
-    percent: "90%",
+    percent: "75%",
   },
   {
     name: "HTML",
-    percent: "90%",
+    percent: "75%",
   },
   {
     name: "React",
-    percent: "70%",
+    percent: "75%",
   },
   {
     name: "Javscript",
-    percent: "70%",
+    percent: "60%",
   },
   {
     name: "Node.js",
