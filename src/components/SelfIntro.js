@@ -2,7 +2,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const SelfIntro = () => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0,
   });
   return (
@@ -30,8 +30,8 @@ const SelfIntro = () => {
           </div>
         </div>
       )}
-      <div class="area">
-        <ul class="circles">
+      <div className="area">
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>

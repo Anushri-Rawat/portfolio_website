@@ -8,7 +8,7 @@ const Header = () => {
           A
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -16,10 +16,10 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          className="collapse navbar-collapse"
           style={{ justifyContent: "flex-end" }}
           id="navbarNavAltMarkup"
         >

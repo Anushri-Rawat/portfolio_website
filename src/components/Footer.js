@@ -25,7 +25,10 @@ const Footer = () => {
         <a href="https://github.com/Anushri-Rawat" className="social-btn btn">
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href="" className="social-btn btn">
+        <a
+          href="https://www.frontendmentor.io/profile/Anushri-Rawat"
+          className="social-btn btn"
+        >
           <i className="fa-brands fa-slack"></i>
         </a>
       </div>

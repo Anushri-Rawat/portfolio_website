@@ -30,7 +30,7 @@ const skills = [
 ];
 
 const About = () => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0,
   });
@@ -75,7 +75,7 @@ const About = () => {
                 style={{ animationDelay: "0.2s" }}
               >
                 <h5>Responsive</h5>
-                <p>My layouts will work on any device, big or small.</p>
+                <p>My designs will work on any device, big or small.</p>
               </div>
             </div>
             <div className="col-sm-6 col-md-3">
@@ -96,7 +96,9 @@ const About = () => {
                 style={{ animationDelay: "0.4s" }}
               >
                 <h5>Intuitive</h5>
-                <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                <p>
+                  Strong preference for easy to use,beautiful,intuitive UX/UI.
+                </p>
               </div>
             </div>
 
@@ -133,10 +135,10 @@ const About = () => {
             >
               <img src={Image} alt="Self-potrait" className="self-potrait" />
               <div>
-                I'm a <strong>Anushri Rawat</strong> a
+                I'm <strong>Anushri Rawat</strong> a
                 <strong> full stack Developer and programmer</strong> in
                 <strong> India</strong>. I have serious passion for UI effects,
-                animations and creating intuitive, dynamic user experiences.
+                animations and creating beautiful, dynamic UIs.
                 <br />
                 <strong>Let's make something special.</strong>
               </div>
@@ -160,7 +162,7 @@ const About = () => {
                       {skill.name}
                     </div>
                   </div>
-                  <span>{skill.percent}</span>
+                  <span style={{ fontSize: "14px" }}>{skill.percent}</span>
                 </div>
               ))}
             </div>

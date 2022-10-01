@@ -51,7 +51,9 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  translate: -50% -50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,9 +310,17 @@ header {
   height: 22px;
   margin: 0 0 12px 0;
   position: relative;
-  padding-right: 10px;
+  padding-right: 5px;
   border-radius: 3px;
   overflow: hidden;
+}
+@media (max-width: 375px) {
+  .bar {
+    padding-right: 3px;
+  }
+  .bar > span {
+    font-size: 13px !important;
+  }
 }
 .fill {
   position: absolute;

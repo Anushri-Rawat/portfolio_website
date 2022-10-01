@@ -8,7 +8,7 @@ import proj5 from "../assests/Screenshot (173).png";
 import { useInView } from "react-intersection-observer";
 
 const Project = () => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0,
   });
