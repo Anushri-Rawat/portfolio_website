@@ -5,6 +5,9 @@ import proj6 from "../assests/Screenshot (74).png";
 import proj4 from "../assests/Screenshot (88).png";
 import proj2 from "../assests/Screenshot (172).png";
 import proj5 from "../assests/Screenshot (173).png";
+import proj0 from "../assests/HomePage.png";
+import proj7 from "../assests/todolist.png";
+import proj8 from "../assests/Screenshot (274).png";
 import { useInView } from "react-intersection-observer";
 
 const Project = () => {
@@ -36,10 +39,26 @@ const Project = () => {
               data-aos-delay="100"
             >
               <figure>
+                <img src={proj0} alt="shopZee" />
+                <figcaption>
+                  <h4>Developers for Developers hub(D4D Hub)</h4>
+                  <a href="https://d4d-developers-hub.netlify.app/">
+                    Visit website
+                  </a>
+                </figcaption>
+                <div className="overlay"></div>
+              </figure>
+            </div>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4"
+              data-aos="slide-up"
+              data-aos-delay="100"
+            >
+              <figure>
                 <img src={proj1} alt="shopZee" />
                 <figcaption>
                   <h4>ShopZee E-comm electronics Store</h4>
-                  <a href="https://shopzee-mern-shopping-cart.herokuapp.com/">
+                  <a href="https://shopzee-ecomm-app.netlify.app/">
                     Visit website
                   </a>
                 </figcaption>
@@ -118,6 +137,38 @@ const Project = () => {
                 <figcaption>
                   <h4>Rest Country APi with Theme switching</h4>
                   <a href="https://anushri-rawat.github.io/Rest-country-api-with-color-theme-switcher/#home_page">
+                    Visit website
+                  </a>
+                </figcaption>
+                <div className="overlay"></div>
+              </figure>
+            </div>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4"
+              data-aos="slide-up"
+              data-aos-delay="600"
+            >
+              <figure>
+                <img src={proj7} alt="shopZee" />
+                <figcaption>
+                  <h4>Todo trello</h4>
+                  <a href="https://todo-trello-reactjs.netlify.app/">
+                    Visit website
+                  </a>
+                </figcaption>
+                <div className="overlay"></div>
+              </figure>
+            </div>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4"
+              data-aos="slide-up"
+              data-aos-delay="600"
+            >
+              <figure>
+                <img src={proj8} alt="shopZee" />
+                <figcaption>
+                  <h4>Cryptoverse</h4>
+                  <a href="https://unrivaled-biscochitos-6dfaf4.netlify.app/">
                     Visit website
                   </a>
                 </figcaption>

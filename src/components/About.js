@@ -31,6 +31,18 @@ const skills = [
     name: "C++",
     percent: "60%",
   },
+  {
+    name: "Express",
+    percent: "40%",
+  },
+  {
+    name: "Tailwind CSS",
+    percent: "40%",
+  },
+  {
+    name: "Material UI",
+    percent: "75%",
+  },
 ];
 
 const About = () => {
@@ -94,7 +106,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-5 align-items-center">
           <div
             className="col-sm-12 col-md-6"
             data-aos="move-in-left"
